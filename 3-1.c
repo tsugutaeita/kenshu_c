@@ -21,8 +21,7 @@ int sfind(int n){
     return sosu[count];
 }
 int main(void){
-    int n, ans;
-    scanf("%d", &n);
+    int n = 10, ans;
     ans = sfind(n);
     printf("%d\n", ans);
     return 0;
